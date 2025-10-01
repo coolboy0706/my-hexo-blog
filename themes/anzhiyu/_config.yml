@@ -1,24 +1,38 @@
 menu:
-  # 文章:
-  #   隧道: /archives/ || anzhiyu-icon-box-archive
-  #   分类: /categories/ || anzhiyu-icon-shapes
-  #   标签: /tags/ || anzhiyu-icon-tags
+  4K影视:
+    4K动漫: /categories/4k-dongman/ || anzhiyu-icon-forward
+    怀旧动漫: /categories/huai-jiu-dongman/ || anzhiyu-icon-history
+    最新番剧: /categories/zuixin-fanju/ || anzhiyu-icon-bilibili
+    剧集: /categories/juji/ || anzhiyu-icon-play
 
+  破解软件:
+    Win软件: /categories/win-ruanjian/ || anzhiyu-icon-gear
+    Mac软件: /categories/mac-ruanjian/ || anzhiyu-icon-gear
+    Android软件: /categories/android-ruanjian/ || anzhiyu-icon-gear
+
+  实用网站:
+    影视资源: /categories/yingshi-ziyuan/ || anzhiyu-icon-radio
+    图书资源: /categories/tushu-ziyuan/ || anzhiyu-icon-book
+    文档处理: /categories/wendang-chuli/ || anzhiyu-icon-paste
+    图片处理: /categories/tupian-chuli/ || anzhiyu-icon-images
+    实用插件: /categories/shiyong-chajian/ || anzhiyu-icon-thumbtack
+
+  每日新闻: /categories/meiri-xinwen/ || anzhiyu-icon-news
   # 友链:
   #   友人帐: /link/ || anzhiyu-icon-link
   #   朋友圈: /fcircle/ || anzhiyu-icon-artstation
   #   留言板: /comments/ || anzhiyu-icon-envelope
 
-  # 我的:
-  #   音乐馆: /music/ || anzhiyu-icon-music
-  #   追番页: /bangumis/ || anzhiyu-icon-bilibili
-  #   相册集: /album/ || anzhiyu-icon-images
-  #   小空调: /air-conditioner/ || anzhiyu-icon-fan
+  我的:
+    音乐馆: /music/ || anzhiyu-icon-music
+    追番页: /bangumis/ || anzhiyu-icon-bilibili
+    相册集: /album/ || anzhiyu-icon-images
+    小空调: /air-conditioner/ || anzhiyu-icon-fan
 
-  # 关于:
-  #   关于本人: /about/ || anzhiyu-icon-paper-plane
-  #   闲言碎语: /essay/ || anzhiyu-icon-lightbulb
-  #   随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
+  关于:
+    关于本人: /about/ || anzhiyu-icon-paper-plane
+    闲言碎语: /essay/ || anzhiyu-icon-lightbulb
+    随便逛逛: javascript:toRandomPost() || anzhiyu-icon-shoe-prints1
 
 # nav相关配置
 nav:
@@ -135,11 +149,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /favicon.ico
+favicon: /img/logo.png
 
 # Avatar (头像)
 avatar:
-  img: https://bu.dusays.com/2023/04/27/64496e511b09c.jpg
+  img: /img/logo.png
   effect: false
 
 # Disable all banner image
@@ -232,7 +246,7 @@ post_copyright:
   enable: true
   decode: false
   author_href:
-  location: 长沙
+  location: 武汉
   license: CC BY-NC-SA 4.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
   avatarSinks: false # hover时头像下沉
@@ -789,7 +803,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://npm.elemecdn.com/anzhiyu-blog-static@1.0.4/img/avatar.jpg # 自定加载动画义头像
+  avatar: /img/touxiang.png # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1052,12 +1066,12 @@ home_top:
   subTitle: 万物可爱。
   siteText: anheyu.com
   category:
-    - name: 前端
+    - name: 工作
       path: /categories/前端开发/
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: 大学
+    - name: 热爱
       path: /categories/大学生涯/
       shadow: var(--anzhiyu-shadow-red)
       class: red
